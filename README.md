@@ -1,1 +1,1 @@
-# newsletter
+# Newsletter Templates
