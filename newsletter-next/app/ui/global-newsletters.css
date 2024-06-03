@@ -1,0 +1,14 @@
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.75fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 80vh;
+    width: 90vw;
+    margin: 5vw;
+    gap: 2vw;
+}
+
+.grid-item {
+    background-color: red;
+    padding: 1vh;
+}
