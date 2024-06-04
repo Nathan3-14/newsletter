@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set directory
+        run: cd newsletter-next
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -48,8 +50,6 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
-      - name: set directory
-        run: cd newsletter-next
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
