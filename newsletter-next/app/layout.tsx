@@ -10,6 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={fredoka.className}>
+        <h1>Title</h1>
         {children}
       </body>
     </html>

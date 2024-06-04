@@ -1,4 +1,4 @@
-import "@/app/example/articles.module.css";
+import "@/app/example/articles.css";
 
 export default function Page() {
     return <>

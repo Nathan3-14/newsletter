@@ -1,5 +1,6 @@
 import { Fredoka } from "next/font/google";
 
 export const fredoka = Fredoka({
-    subsets: ["latin"]
+    subsets: ["latin"],
+    weight: ["300", "500", "700"]
 });

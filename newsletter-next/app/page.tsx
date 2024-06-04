@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { NewsletterLink } from "@/app/ui/components"
+import { NewsletterLink } from "@/app/ui/newsletterlink"
 
 export default function Page() {
   return <>
