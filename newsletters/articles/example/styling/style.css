@@ -1,7 +1,6 @@
 #grid {
+	/* background-image: url("https://fastly.picsum.photos/id/591/2160/2160.jpg?hmac=7k1kBN_VzFQR7yDPsXxDTEeQnNIObLAsRV2zMV3DQaU"); */
 	background-image: url("https://fastly.picsum.photos/id/623/4320/4320.jpg?hmac=inSKT-QTOrXfEChsWGvOOfJWzmwRltfTEyLz7teWGIc");
-    background-size: 100% 100%;
-	/* background-image: url("https://picsum.photos/2160/2160"); */
 }
 
 #article-1 {
