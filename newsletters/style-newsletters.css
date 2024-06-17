@@ -1,0 +1,23 @@
+#grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	height: 180vh;
+	width: 90vw;
+	margin: 5vw;
+	gap: 4vw;
+}
+
+.grid-item {
+	/* background-color: red; */
+	padding: 1vh;
+}
+
+.grid-item::after {
+    backdrop-filter: blur(1px);
+    /* mask: linear-gradient(to top, transparent, black 35%); */
+}
+
+body {
+    height: 200vh;
+}
