@@ -9,15 +9,31 @@
 }
 
 .grid-item {
-	/* background-color: red; */
+	position: relative;
 	padding: 1vh;
-	backdrop-filter: blue(10px);
 }
 
-.grid-item::after {
-    backdrop-filter: blur(10px);
-	/* backdrop-filter: none !important; */
-    /* mask: linear-gradient(to top, transparent, black 35%); */
+.grid-item:hover {
+	.backdrop {
+		backdrop-filter: blur(10px);
+	}
+}
+
+.backdrop {
+	transition: backdrop-filter 0.2s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(1px);
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.75) 75%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none; /* Ensure the backdrop does not interfere with content interaction */
+}
+
+.content {
+	position: relative;
+	z-index: 1;
 }
 
 body {
