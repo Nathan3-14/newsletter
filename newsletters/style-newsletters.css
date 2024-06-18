@@ -11,10 +11,12 @@
 .grid-item {
 	/* background-color: red; */
 	padding: 1vh;
+	backdrop-filter: blue(10px);
 }
 
 .grid-item::after {
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(10px);
+	/* backdrop-filter: none !important; */
     /* mask: linear-gradient(to top, transparent, black 35%); */
 }
 
