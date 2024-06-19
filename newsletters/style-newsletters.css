@@ -20,7 +20,7 @@
 }
 
 .backdrop {
-	transition: backdrop-filter 0.2s;
+	transition: backdrop-filter 0.5s;
     position: absolute;
     top: 0;
     left: 0;
